@@ -1,61 +1,181 @@
-<!-- wp:template-part {"slug":"header","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"header","tagName":"header","area":"uncategorized"} /-->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:site-logo {"width":138,"className":"is-style-default"} /--></div>
-<!-- /wp:group -->
+<!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
+<main class="wp-block-group"><!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+<section class="wp-block-group" style="padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:site-logo {"width":507,"shouldSyncIcon":false,"className":"is-style-default","style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-<!-- wp:heading {"level":1,"fontSize":"extra-large"} -->
-<h1 class="wp-block-heading has-extra-large-font-size">See what’s cooking, check out our menu today!</h1>
-<!-- /wp:heading -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Menu</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:group -->
-
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"customOverlayColor":"#FFF","isUserOverlayColor":true,"isDark":false,"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:media-text -->
-<div class="wp-block-media-text is-stacked-on-mobile"><figure class="wp-block-media-text__media"></figure><div class="wp-block-media-text__content"><!-- wp:heading -->
-<h2 class="wp-block-heading">About</h2>
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group"><!-- wp:heading {"level":1,"fontSize":"extra-large"} -->
+<h1 class="wp-block-heading has-extra-large-font-size">Proud to be serving<br>locals, since 1988</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-<!-- /wp:paragraph --></div></div>
-<!-- /wp:media-text --></div>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"tagName":"button"} -->
+<div class="wp-block-button"><button type="button" class="wp-block-button__link wp-element-button">See the Menu</button></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></section>
+<!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:media-text {"mediaPosition":"right"} -->
-<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading -->
-<h2 class="wp-block-heading">Services</h2>
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group"><!-- wp:media-text {"mediaPosition":"right"} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">About The Duck</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 <!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"></figure></div>
-<!-- /wp:media-text --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover -->
+<!-- /wp:media-text --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">What we have</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">Catering</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We offer full-service catering for your events with a customized menu that fits any occasion, from corporate meetings to family gatherings. For Catering contact us here</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…"} -->
+<p><a href="http://the-duck-taphouse-grill.local/services/" data-type="link" data-id="http://the-duck-taphouse-grill.local/services/">Go to Services</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"15rem","columnCount":null}} -->
+<div class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Parties and Local Live Bands</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Experience the best local live bands or host your own private parties with us. We provide the perfect atmosphere for your celebrations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…"} -->
+<p><a href="http://the-duck-taphouse-grill.local/services/" data-type="link" data-id="http://the-duck-taphouse-grill.local/services/">Go to Services</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Pool &amp; Darts</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Challenge your friends to a game of pool or darts. It's the perfect way to unwind and enjoy a fun evening with great company.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…"} -->
+<p><a href="http://the-duck-taphouse-grill.local/services/" data-type="link" data-id="http://the-duck-taphouse-grill.local/services/">Go to Services</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Live Sports &amp; Sponsorship</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Catch all the televised sports action live on our big screens. We are also proud sponsors of local sports teams in the community.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…"} -->
+<p><a href="http://the-duck-taphouse-grill.local/services/" data-type="link" data-id="http://the-duck-taphouse-grill.local/services/">Go to Services</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Food</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Challenge your friends to a game of pool or darts. It's the perfect way to unwind and enjoy a fun evening with great company.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Content…"} -->
+<p><a href="http://the-duck-taphouse-grill.local/menu/" data-type="link" data-id="http://the-duck-taphouse-grill.local/services/">Go to Menu</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<section class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Events</h2>
+<h2 class="wp-block-heading">Where the locals hang</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 <p>Join us for the fun! See what we are up to and be up to date on our events by going to our socials</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
 <!-- wp:social-links {"openInNewTab":true,"size":"has-huge-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <ul class="wp-block-social-links has-huge-icon-size is-style-logos-only"><!-- wp:social-link {"url":"https://www.facebook.com/theducktaphouse","service":"facebook","label":""} /-->
 
 <!-- wp:social-link {"url":"https://www.instagram.com/theducktaphousegrill/","service":"instagram"} /--></ul>
-<!-- /wp:social-links --></div>
+<!-- /wp:social-links --></section>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"uncategorized"} /-->
+<!-- wp:shortcode -->
+[instagram-feed feed=1]
+<!-- /wp:shortcode --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading">Reviews from our customer</h2>
+<!-- /wp:heading -->
+
+<!-- wp:shortcode -->
+[trustindex no-registration=google]
+<!-- /wp:shortcode --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","area":"uncategorized"} /-->
