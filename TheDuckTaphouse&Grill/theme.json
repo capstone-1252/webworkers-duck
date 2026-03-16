@@ -75,10 +75,10 @@
 					"gigantic": "clamp(3rem, 6vw, 4rem)"
 				},
 				"lineHeight": {
-					"medium": 1.4,
-					"normal": 1.6,
+					"medium": 1.3999999999999999,
+					"normal": 1.6000000000000001,
 					"small": 1.2,
-					"tiny": 1.15
+					"tiny": 1.1499999999999999
 				}
 			}
 		},
@@ -99,214 +99,7 @@
 			"customFontSize": true,
 			"defaultFontSizes": false,
 			"dropCap": false,
-			"fontFamilies": [
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-ExtraLight.woff2"
-							]
-						},
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-Light.woff2"
-							]
-						},
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-Regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-Medium.woff2"
-							]
-						},
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-SemiBold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Pridi",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/Pridi/Pridi-Bold.woff2"
-							]
-						}
-					],
-					"fontFamily": "Pridi, serif",
-					"name": "Pridi",
-					"slug": "pridi"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Thin.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-ThinItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-ExtraLight.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-ExtraLightItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Light.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-LightItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Medium.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-MediumItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-SemiBold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-SemiBoldItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Bold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-BoldItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-ExtraBold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-ExtraBoldItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-Black.woff2"
-							]
-						},
-						{
-							"fontFamily": "Roboto",
-							"fontStyle": "italic",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/Roboto/Roboto-BlackItalic.woff2"
-							]
-						}
-					],
-					"fontFamily": "Roboto, system-ui, -apple-system, \"Segoe UI\", Arial, sans-serif",
-					"name": "Roboto",
-					"slug": "roboto"
-				}
-			],
+			"fontFamilies": [],
 			"fontSizes": [
 				{
 					"name": "Small",
@@ -384,7 +177,7 @@
 			"gradient": "",
 			"text": ""
 		},
-		"css": "html {\n    scroll-behavior: smooth;\n}\n.menu-dotted-row {\n    align-items: baseline !important; \n}\n.menu-dotted-row > :first-child {\n    display: flex;\n    flex-grow: 1;\n    align-items: baseline;\n}\n.menu-dotted-row > :first-child::after {\n    content: \"\";\n    flex-grow: 1;\n    border-bottom: 2px dotted #000000;\n    margin: 0 12px;\n    position: relative;\n    top: -4px;\n}\n.menu-dotted-row:has(> :last-child:empty) > :first-child::after,\n.menu-dotted-row:has(> :last-child:blank) > :first-child::after {\n    display: none;\n}",
+		"css": "html {\n    scroll-behavior: smooth;\n}",
 		"elements": {
 			"button": {
 				"border": {
@@ -406,36 +199,6 @@
 					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "400"
-				}
-			},
-			"h1": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
-				}
-			},
-			"h2": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
-				}
-			},
-			"h4": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--pridi)"
 				}
 			},
 			"link": {
