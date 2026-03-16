@@ -1,5 +1,4 @@
 /* 
-
 Theme Name: The Duck Taphouse & Grill
 Author: Long Hoang Tran, Zac W Waskowic, Kayden Mayhew.
 Description: This is a Wordpress for the final web capstone.
@@ -10,8 +9,181 @@ Requires PHP: The oldest PHP version supported, in X.X format, only the number.
 License: The license of the theme.
 License URI: The URL of the theme license.
 Text Domain: The string used for textdomain for translation. The theme slug. 
-
 */
+
+/* TODO: 
+
+- Once High fidelity is done:
+    - Remove unnessesary fonts form both here and actual files
+    - account for mobile
+*/
+
+
+:root {
+    --black-deep: #0C0C0F;
+    --black-medium: #21212A;
+    --black-light: #333343;
+
+    --yellow-primary: #E8DA00;
+    --yellow-vibrant: #FBED1F;
+    --yellow-light: #FFF783;
+    
+    --cream-medium: #F6F1CF;
+    --cream-light: #FFFCE8;
+    --cream-white: #FEFEF8;
+}
+
+/* #region Font Faces */
+/* Pridi Font Family */
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-ExtraLight.woff2');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-Light.woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-Regular.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-Medium.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-SemiBold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Pridi';
+    src: url('./assets/fonts/Pridi/Pridi-Bold.woff2');
+    font-weight: 700;
+}
+
+/* Roboto Font Family */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Thin.woff2');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-ThinItalic.woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-ExtraLight.woff2');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-ExtraLightItalic.woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Light.woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-LightItalic.woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Regular.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Italic.woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Medium.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-MediumItalic.woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-SemiBold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-SemiBoldItalic.woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-Bold.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-BoldItalic.woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-ExtraBold.woff2');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto/Roboto-ExtraBoldItalic.woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+/* #endregion */
+
+body {
+    font-family: 'Roboto';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pridi';
+}
+
+a:not(header a) {
+    display: block;
+    border-radius: 8px;
+
+    background-color: var(--yellow-vibrant);
+    color: var(--black-deep);
+
+    padding: 0.67rem 2.25rem;
+}
+
+
+
+
 
 .container {
     max-width: 1000px;
@@ -28,7 +200,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-footer {
-    text-align: center;
-}
+
+
 
