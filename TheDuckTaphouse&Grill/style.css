@@ -22,10 +22,10 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 :root {
     --black-deep: #0C0C0F;
     --black-medium: #21212A;
-    --black-light: #333343;
+    --black-light: #37374D;
 
     --yellow-primary: #E8DA00;
-    --yellow-vibrant: #FBED1F;
+    --yellow-vibrant: #FBDA1F;
     --yellow-light: #FFF783;
     
     --cream-medium: #F6F1CF;
@@ -160,7 +160,107 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 
 body {
     font-family: 'Roboto';
+    background-color: var(--black-medium);
+    color: var(--cream-light);
 }
+
+header {
+    background-color: var(--black-light);
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;;
+}
+
+:root :where(.wp-block-buttons) {
+    background-color: unset;
+}
+.hero {
+    padding: 0 1.5rem;
+}
+.hero h1 {
+    font-size: 2.25rem;
+    line-height: 1;
+    color: var(--yellow-vibrant);
+    margin: 29px 0;
+}
+.hero p {
+    color: var(--cream-light);
+}
+.hero .wp-block-button {
+    width: 100%;
+}
+.hero .btn {
+    background-color: var(--yellow-vibrant);
+    width: 100%;
+    margin: 2.25rem 0 4.375rem;
+}
+.about {
+    background-color: var(--yellow-light);
+    color: var(--black-medium);
+    margin-bottom: 4.5rem;
+}
+.about h2 {
+    color: var(--black-medium);
+}
+
+
+.what-we-have {
+    padding: 0 1.5rem;
+    color: var(--cream-light);
+    margin-bottom: 2.715rem;
+}
+.poloroid-card {
+    position: relative;
+    background-color: var(--black-light);
+    padding: 1.5rem 1.125rem 1.6875rem;
+    max-width: 310px;
+}
+.poloroid-card .pin {
+    position: absolute;
+    top: 0 ;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+}
+
+.poloroid-card p:first-of-type {
+    margin-bottom: 1.5rem;
+}
+.poloroid-card a {
+    color: var(--yellow-vibrant);
+}
+
+.socials {
+    padding: 0 1.5rem;
+}
+.socials section {
+    justify-content: start;
+}
+.socials li {
+    color: var(--yellow-vibrant);
+}
+.socials p {
+    margin: 2rem 0;
+}
+
+.reviews {
+    background-color: var(--yellow-light);
+    padding-bottom: 3.25rem;
+}
+.reviews-content {
+    padding: 0 1.5rem;
+}
+.reviews h2 {
+    color: var(--black-medium);
+}
+.reviews p {
+    margin-bottom: 0;
+}
+
+
+
 
 h1,
 h2,
@@ -170,8 +270,18 @@ h5,
 h6 {
     font-family: 'Pridi';
 }
+h2 {
+    color: var(--yellow-vibrant);
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
-a:not(header a) {
+
+.btn {
     display: block;
     border-radius: 8px;
 
@@ -180,7 +290,6 @@ a:not(header a) {
 
     padding: 0.67rem 2.25rem;
 }
-
 
 
 
@@ -201,5 +310,8 @@ img {
     height: auto;
 }
 
-
+header,
+footer {
+    background-color: var(--black-light);
+}
 
