@@ -1,12 +1,12 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"header","theme":"TheDuckTaphouse\u0026Grill","tagName":"header","area":"uncategorized"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
-<main class="wp-block-group"><!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","orientation":"horizontal"}} -->
-<section class="wp-block-group" style="padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:site-logo {"width":214,"shouldSyncIcon":false,"className":"is-style-default","style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+<main class="wp-block-group"><!-- wp:group {"tagName":"section","className":"hero","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","orientation":"horizontal"}} -->
+<section class="wp-block-group hero"><!-- wp:site-logo {"width":214,"shouldSyncIcon":false,"className":"is-style-default center","style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained","justifyContent":"center","contentSize":"500px"}} -->
-<section class="wp-block-group"><!-- wp:heading {"level":1,"fontSize":"extra-large"} -->
-<h1 class="wp-block-heading has-extra-large-font-size">Proud to be serving<br>locals, since 1988</h1>
+<section class="wp-block-group"><!-- wp:heading {"level":1,"className":"wp-block-heading"} -->
+<h1 class="wp-block-heading">Proud to be serving<br>locals, since 1988</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -15,38 +15,41 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://ducktaphouseandgrill.ca/menu/">See the Menu</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button btn" href="http://ducktaphouseandgrill.ca/menu/">See the Menu</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group"><!-- wp:media-text {"mediaPosition":"right"} -->
-<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">About The Duck</h2>
+<!-- wp:group {"tagName":"section","className":"about","layout":{"type":"constrained"}} -->
+<section class="wp-block-group about"><!-- wp:media-text {"mediaPosition":"right"} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading {"className":"wp-block-heading"} -->
+<h2 class="wp-block-heading">About The Duck</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p><p>Since the summer of 1996 The Duck has been your Go-To neighbourhood pub. Conveniently located in the heart of Alberta avenue, this local student hang out has been serving up great food and drinks at the best prices around.</p>
+<p>We have the pleasure of serving nearby campus community members and strangers that quickly become friends.</p> 
+<p>Connect with us for event catering, team building sessions, fundraisers, and private party needs. We can host up to 150 guests at any time! Stop by one of our open mic nights to hear local musical talent or enjoy some karaoke!</p></p>
 <!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"></figure></div>
 <!-- /wp:media-text --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size">What we have</h2>
+<!-- wp:group {"tagName":"section","className":"what-we-have","layout":{"type":"constrained"}} -->
+<section class="wp-block-group what-we-have"><!-- wp:heading {"className":"wp-block-heading"} -->
+<h2 class="wp-block-heading">What we have</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"15rem","columnCount":null}} -->
 <div class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
 <section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-<h3 class="wp-block-heading has-large-font-size">Catering</h3>
+<!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
+<h3 class="wp-block-heading">Catering</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -59,14 +62,13 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"15rem","columnCount":null}} -->
-<div class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
 <section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Parties and Local Live Bands</h3>
 <!-- /wp:heading -->
 
@@ -85,8 +87,8 @@
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Pool &amp; Darts</h3>
 <!-- /wp:heading -->
 
@@ -100,8 +102,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
-<section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+<!-- wp:group {"tagName":"section","className":"poloroid-card","layout":{"type":"flex","orientation":"vertical"}} -->
+<section class="wp-block-group poloroid-card"><!-- wp:image {"scale":"cover"} -->
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -125,8 +127,8 @@
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
+<div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Food</h3>
 <!-- /wp:heading -->
 
@@ -144,9 +146,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<section class="wp-block-group socials"><!-- wp:group {"tagName":"section","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <section class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
+<div class="wp-block-group "><!-- wp:heading -->
 <h2 class="wp-block-heading">Where the locals hang</h2>
 <!-- /wp:heading -->
 
@@ -167,15 +169,17 @@
 <!-- /wp:shortcode --></section>
 <!-- /wp:group -->
 
+<div class="reviews">
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group"><!-- wp:heading -->
+<section class="wp-block-group reviews-content"><!-- wp:heading -->
 <h2 class="wp-block-heading">Reviews from our customer</h2>
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
 [trustindex no-registration=google]
 <!-- /wp:shortcode --></section>
+</div>
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026Grill","tagName":"footer","area":"uncategorized"} /-->
