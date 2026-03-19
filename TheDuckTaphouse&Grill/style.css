@@ -334,4 +334,45 @@ header,
 footer {
     background-color: var(--black-light);
 }
+html {
+    scroll-behavior: smooth;
+}
+.menu-dotted-row {
+    align-items: baseline !important; 
+}
+.menu-dotted-row > :first-child {
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+}
+.menu-dotted-row > :first-child::after {
+    content: "";
+    flex-grow: 1;
+    min-width: 25px;
+    border-bottom: 2px dotted #ffffff;
+    margin: 0 12px;
+    position: relative;
+    top: -5px;
+}
+.menu-dotted-row:has(> :last-child:empty) > :first-child::after,
+.menu-dotted-row:has(> :last-child:blank) > :first-child::after {
+    display: none;
+}
+.inline {
+display: inline-block;
+}
+.flex-wrap {
+display: flex;
+flex-wrap: wrap !important;
+}
+main {
+    margin: 0 1.5rem;
+}
+.p-removed li:last-child div p {
+    display: none;
+}
+.no-wrap {
+    display: inline-block;
+    white-space: nowrap;
+}
 
