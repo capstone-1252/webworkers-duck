@@ -27,7 +27,6 @@
 <!-- /wp:buttons --></section>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
-
 <!-- wp:group {"tagName":"section","className":"about","layout":{"type":"constrained"}} -->
 <section class="wp-block-group about"><!-- wp:media-text {"mediaPosition":"right"} -->
 <div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><!-- wp:heading {"className":"wp-block-heading"} -->
@@ -41,6 +40,7 @@
 <!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"></figure></div>
 <!-- /wp:media-text --></section>
 <!-- /wp:group -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.png" alt="" class="paper ">
 
 <!-- wp:group {"tagName":"section","className":"what-we-have","layout":{"type":"constrained"}} -->
 <section class="wp-block-group what-we-have"><!-- wp:heading {"className":"wp-block-heading"} -->
@@ -51,11 +51,14 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"15rem","columnCount":null}} -->
 <div class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"flex","orientation":"vertical"}} -->
 <section class="wp-block-group"><!-- wp:image {"scale":"cover"} -->
+
 <figure class="wp-block-image"><img alt="" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
+
 <h3 class="wp-block-heading">Catering</h3>
 <!-- /wp:heading -->
 
@@ -76,6 +79,7 @@
 
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 <h3 class="wp-block-heading">Parties and Local Live Bands</h3>
 <!-- /wp:heading -->
 
@@ -96,6 +100,7 @@
 
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin flip-h">
 <h3 class="wp-block-heading">Pool &amp; Darts</h3>
 <!-- /wp:heading -->
 
@@ -116,6 +121,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3} -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin flip-h">
 <h3 class="wp-block-heading">Live Sports &amp; Sponsorship</h3>
 <!-- /wp:heading -->
 
@@ -136,6 +142,7 @@
 
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 <h3 class="wp-block-heading">Food</h3>
 <!-- /wp:heading -->
 
@@ -176,6 +183,7 @@
 <!-- /wp:shortcode --></section>
 <!-- /wp:group -->
 
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.png" alt="" class="paper flip-v">
 <div class="reviews">
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group reviews-content"><!-- wp:heading -->
