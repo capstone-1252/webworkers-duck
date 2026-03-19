@@ -13,72 +13,28 @@
 			"defaultPalette": true,
 			"duotone": [],
 			"gradients": [],
-			"palette": [
-				{
-					"color": "#0C0C0F",
-					"name": "Black Deep",
-					"slug": "black-deep"
-				},
-				{
-					"color": "#21212A",
-					"name": "Black Medium",
-					"slug": "black-medium"
-				},
-				{
-					"color": "#333343",
-					"name": "Black Light",
-					"slug": "black-light"
-				},
-				{
-					"color": "#E8DA00",
-					"name": "Yellow Primary",
-					"slug": "yellow-primary"
-				},
-				{
-					"color": "#FBED1F",
-					"name": "Yellow Vibrant",
-					"slug": "yellow-vibrant"
-				},
-				{
-					"color": "#FFF783",
-					"name": "Yellow Light",
-					"slug": "yellow-light"
-				},
-				{
-					"color": "#F6F1CF",
-					"name": "Cream Medium",
-					"slug": "cream-medium"
-				},
-				{
-					"color": "#FFFCE8",
-					"name": "Cream Light",
-					"slug": "cream-light"
-				},
-				{
-					"color": "#FEFEF8",
-					"name": "Cream White",
-					"slug": "cream-white"
-				}
-			],
+			"palette": [],
 			"text": true
 		},
 		"custom": {
 			"spacing": {
-				"large": "clamp(4rem, 10vw, 8rem)",
-				"medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
-				"outer": "var(--wp--custom--spacing--small, 1.25rem)",
-				"small": "max(1.25rem, 5vw)"
-			},
-			"typography": {
-				"fontSize": {
-					"colossal": "clamp(4rem, 8vw, 6.25rem)",
-					"gigantic": "clamp(3rem, 6vw, 4rem)"
-				},
-				"lineHeight": {
-					"medium": 1.3999999999999999,
-					"normal": 1.6000000000000001,
-					"small": 1.2,
-					"tiny": 1.1499999999999999
+				"large": "",
+				"medium": "",
+				"outer": "",
+				"small": ""
+			}
+		},
+		"settings": {
+			"blocks": {
+				"core/group": {
+					"spacing": {
+						"padding": {
+							"top": "0px",
+							"right": "0px",
+							"bottom": "0px",
+							"left": "0px"
+						}
+					}
 				}
 			}
 		},
@@ -94,78 +50,9 @@
 				"vh",
 				"vw"
 			]
-		},
-		"typography": {
-			"customFontSize": true,
-			"defaultFontSizes": false,
-			"dropCap": false,
-			"fontFamilies": [],
-			"fontSizes": [
-				{
-					"name": "Small",
-					"size": "0.875rem",
-					"slug": "small"
-				},
-				{
-					"name": "Medium",
-					"size": "1rem",
-					"slug": "medium"
-				},
-				{
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "large"
-				},
-				{
-					"name": "Extra Large",
-					"size": "2rem",
-					"slug": "extra-large"
-				}
-			],
-			"fontStyle": true,
-			"fontWeight": true,
-			"letterSpacing": true,
-			"textDecoration": true,
-			"textTransform": true
 		}
 	},
 	"styles": {
-		"blocks": {
-			"core/button": {
-				"border": {
-					"radius": {
-						"bottomLeft": "8px",
-						"bottomRight": "8px",
-						"topLeft": "8px",
-						"topRight": "8px"
-					}
-				},
-				"color": {
-					"background": "var(--wp--preset--color--yellow-vibrant)",
-					"text": "var(--wp--preset--color--black-deep)"
-				},
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var(--wp--preset--color--black-deep)"
-						}
-					}
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--30)",
-						"left": "var(--wp--preset--spacing--60)",
-						"right": "var(--wp--preset--spacing--60)",
-						"top": "var(--wp--preset--spacing--30)"
-					}
-				}
-			},
-			"core/buttons": {
-				"color": {
-					"background": "var(--wp--preset--color--cream-white)"
-				}
-			}
-		},
 		"border": {
 			"color": "",
 			"radius": "",
@@ -178,36 +65,6 @@
 			"text": ""
 		},
 		"css": "html {\n    scroll-behavior: smooth;\n}",
-		"elements": {
-			"button": {
-				"border": {
-					"radius": "8px"
-				},
-				"color": {
-					"background": "var(--wp--preset--color--yellow-vibrant)",
-					"text": "var(--wp--preset--color--black-deep)"
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "0.6em",
-						"left": "1.2em",
-						"right": "1.2em",
-						"top": "0.6em"
-					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--roboto)",
-					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "400"
-				}
-			},
-			"link": {
-				"border": [],
-				"color": [],
-				"spacing": [],
-				"typography": []
-			}
-		},
 		"filter": {
 			"duotone": ""
 		},
@@ -217,13 +74,13 @@
 				"bottom": "",
 				"left": "",
 				"right": "",
-				"top": ""
+				"top": "0px"
 			},
 			"padding": {
-				"bottom": "",
-				"left": "",
-				"right": "",
-				"top": ""
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
 			}
 		},
 		"typography": {
