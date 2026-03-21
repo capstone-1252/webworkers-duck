@@ -13,65 +13,77 @@
 <h1 class="wp-block-heading">Menu</h1>
 <!-- /wp:heading -->
 
-<!-- wp:group {"tagName":"section","layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"19rem"}} -->
-<section class="wp-block-group"><!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","height":"100px","scale":"cover","className":"is-style-default","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border is-style-default"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;object-fit:cover;width:100px;height:100px"/></figure>
-<!-- /wp:image -->
+<!-- wp:group {"tagName":"section","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
+<section class="wp-block-group"><!-- wp:group {"tagName":"article","style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#breakfasts-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/bacon-1.svg" alt="Breakfast Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#breakfasts-section" data-type="internal" data-id="#breakfasts-section">Breakfast</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#breakfasts-section" data-type="internal" data-id="#breakfasts-section">Breakfast</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","height":"100px","scale":"cover","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;object-fit:cover;width:100px;height:100px"/></figure>
-<!-- /wp:image -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#appetizers-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/drumstick-bite.svg" alt="Appetizers Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#appetizers-section" data-type="internal" data-id="#appetizers-section">Appetizers</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#appetizers-section" data-type="internal" data-id="#appetizers-section">Appetizers</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","aspectRatio":"1","scale":"cover","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:100px"/></figure>
-<!-- /wp:image -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#soup&amp;salads-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/bowl-food.svg" alt="Soup & Salad Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#soup&amp;salads-section" data-type="internal" data-id="#soup&amp;salads-section">Soup &amp; Salad</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#soup&amp;salads-section" data-type="internal" data-id="#soup&amp;salads-section">Soup &amp; Salad</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","aspectRatio":"1","scale":"cover","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:100px"/></figure>
-<!-- /wp:image -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#mains-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/utensils.svg" alt="Mains Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#mains-section" data-type="internal" data-id="#mains-section">Mains</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#mains-section" data-type="internal" data-id="#mains-section">Mains</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","aspectRatio":"1","scale":"cover","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:100px"/></figure>
-<!-- /wp:image -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#handhelds-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/burger.svg" alt="Handhelds Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#handhelds-section" data-type="internal" data-id="#handhelds-section">Handhelds</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#handhelds-section" data-type="internal" data-id="#handhelds-section">Handhelds</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<article class="wp-block-group"><!-- wp:image {"width":"100px","aspectRatio":"1","scale":"cover","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image is-resized has-custom-border"><img alt="" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:100px"/></figure>
-<!-- /wp:image -->
+<article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<a href="/#pizza-section" style="display: block;">
+    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/pizza.svg" alt="Pizza Icon" class="safe-svg-inside safe-svg-inline">
+</a>
+<!-- /wp:group -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="/#pizza-section" data-type="internal" data-id="#pizza-section">10” Pizza</a></h2>
-<!-- /wp:heading --></article>
+<!-- wp:paragraph -->
+<p><a href="/#pizza-section" data-type="internal" data-id="#pizza-section">10” Pizza</a></p>
+<!-- /wp:paragraph --></article>
 <!-- /wp:group --></section>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -81,7 +93,7 @@
 <h2 class="wp-block-heading">Breakfast</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[3]}},"tagName":"section","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[9]}},"tagName":"section","layout":{"type":"default"}} -->
 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
 <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -95,9 +107,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"block","tagName":"p"} /-->
+<div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":": ","displayLayout":"block","tagName":"p"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -113,7 +125,7 @@
 <h2 class="wp-block-heading">Appetizers</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[4]}},"tagName":"section","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[8]}},"tagName":"section","layout":{"type":"default"}} -->
 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
 <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -126,10 +138,10 @@
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"inline-block","tagName":"p"} /-->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -158,10 +170,10 @@
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -177,7 +189,7 @@
 <h2 class="wp-block-heading">Mains</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[7]}},"tagName":"section","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[11]}},"tagName":"section","layout":{"type":"default"}} -->
 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
 <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -190,10 +202,10 @@
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p","className":"no-wrap-1"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -209,7 +221,7 @@
 <h2 class="wp-block-heading">Handhelds</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[6]}},"tagName":"section","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[10]}},"tagName":"section","layout":{"type":"default"}} -->
 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
 <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -222,10 +234,10 @@
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -242,7 +254,7 @@
 <h2 class="wp-block-heading">10” Pizza</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[5]}},"tagName":"section","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[7]}},"tagName":"section","layout":{"type":"default"}} -->
 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
 <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
 <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -255,10 +267,10 @@
 <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
+<!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group menu-dotted-row"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
-<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":"$","displayLayout":"block","tagName":"span","className":"no-wrap"} /--></div>
 <!-- /wp:group --></article>
 <!-- /wp:group -->
 <!-- /wp:post-template --></section>
@@ -266,14 +278,14 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Toppings:</h3>
+<section class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading">Toppings:</h2>
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":6,"query":{"perPage":100,"pages":0,"offset":0,"postType":"pizza-topping","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[]}},"tagName":"section","layout":{"type":"constrained"}} -->
-<section class="wp-block-query"><!-- wp:post-template {"className":"flex-wrap p-removed","layout":{"type":"default","justifyContent":"center","columnCount":3}} -->
+<section class="wp-block-query"><!-- wp:post-template {"className":"flex-wrap p-removed","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default","justifyContent":"center","columnCount":3}} -->
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20)"><!-- wp:post-title {"textAlign":"left","level":4,"className":"inline"} /-->
+<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20)"><!-- wp:post-title {"textAlign":"left","level":3,"className":"inline"} /-->
 
 <!-- wp:paragraph {"style":{"layout":{"selfStretch":"fixed","flexSize":"px"}}} -->
 <p>,</p>
@@ -289,4 +301,4 @@
 <!-- /wp:media-text --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026Grill","tagName":"footer","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026amp;Grill","area":"uncategorized"} /-->
