@@ -17,7 +17,7 @@
 <section class="wp-block-group"><!-- wp:group {"tagName":"article","style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#breakfasts-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/bacon-1.svg" alt="Breakfast Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bacon.svg" alt="Breakfast Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
@@ -29,7 +29,7 @@
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#appetizers-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/drumstick-bite.svg" alt="Appetizers Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/drumstick-bite.svg" alt="Appetizers Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
@@ -41,7 +41,7 @@
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#soup&amp;salads-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/bowl-food.svg" alt="Soup & Salad Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bowl-food.svg" alt="Soup & Salad Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
@@ -53,7 +53,7 @@
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#mains-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/utensils.svg" alt="Mains Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/utensils.svg" alt="Mains Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
@@ -65,7 +65,7 @@
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#handhelds-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/burger.svg" alt="Handhelds Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/burger.svg" alt="Handhelds Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
@@ -77,7 +77,7 @@
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <a href="/#pizza-section" style="display: block;">
-    <img src="http://ducktaphouseandgrill.local/wp-content/uploads/2026/03/pizza.svg" alt="Pizza Icon" class="safe-svg-inside safe-svg-inline">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pizza.svg" alt="Pizza Icon" class="safe-svg-inside safe-svg-inline">
 </a>
 <!-- /wp:group -->
 
