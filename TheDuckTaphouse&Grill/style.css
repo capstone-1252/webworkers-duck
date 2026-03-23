@@ -37,29 +37,10 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Pridi Font Family */
 @font-face {
     font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-ExtraLight.woff2');
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Light.woff2');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Pridi';
     src: url('./assets/fonts/Pridi/Pridi-Regular.woff2');
     font-weight: 400;
 }
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Medium.woff2');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-SemiBold.woff2');
-    font-weight: 600;
-}
+
 @font-face {
     font-family: 'Pridi';
     src: url('./assets/fonts/Pridi/Pridi-Bold.woff2');
@@ -67,95 +48,25 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 }
 
 /* Roboto Font Family */
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Thin.woff2');
-    font-weight: 100;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ThinItalic.woff2');
-    font-weight: 100;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraLight.woff2');
-    font-weight: 200;
-}
 @font-face {
     font-family: 'Roboto';
     src: url('./assets/fonts/Roboto/Roboto-ExtraLightItalic.woff2');
     font-weight: 200;
     font-style: italic;
 }
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Light.woff2');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-LightItalic.woff2');
-    font-weight: 300;
-    font-style: italic;
-}
+
 @font-face {
     font-family: 'Roboto';
     src: url('./assets/fonts/Roboto/Roboto-Regular.woff2');
     font-weight: 400;
 }
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Italic.woff2');
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Medium.woff2');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-MediumItalic.woff2');
-    font-weight: 500;
-    font-style: italic;
-}
+
 @font-face {
     font-family: 'Roboto';
     src: url('./assets/fonts/Roboto/Roboto-SemiBold.woff2');
     font-weight: 600;
 }
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-SemiBoldItalic.woff2');
-    font-style: italic;
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Bold.woff2');
-    font-weight: 700;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-BoldItalic.woff2');
-    font-weight: 700;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraBold.woff2');
-    font-weight: 800;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraBoldItalic.woff2');
-    font-weight: 800;
-    font-style: italic;
-}
+
 /* #endregion */
 .wp-block-group {
     padding: 0;
