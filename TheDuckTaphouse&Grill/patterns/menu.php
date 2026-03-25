@@ -17,78 +17,78 @@
         <!-- wp:group {"tagName":"section","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
         <section class="wp-block-group"><!-- wp:group {"tagName":"article","style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#breakfasts-section" style="display: block;">
+                <a href="#breakfasts-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/bacon.svg" alt="Breakfast Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#breakfasts-section" data-type="internal" data-id="#breakfasts-section">Breakfast</a></p>
+                <p><a href="#breakfasts-section" data-type="internal" data-id="#breakfasts-section">Breakfast</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
 
             <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#appetizers-section" style="display: block;">
+                <a href="#appetizers-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/drumstick-bite.svg" alt="Appetizers Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#appetizers-section" data-type="internal" data-id="#appetizers-section">Appetizers</a></p>
+                <p><a href="#appetizers-section" data-type="internal" data-id="#appetizers-section">Appetizers</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
 
             <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#soup&amp;salads-section" style="display: block;">
+                <a href="#soup&amp;salads-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/bowl-food.svg" alt="Soup & Salad Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#soup&amp;salads-section" data-type="internal" data-id="#soup&amp;salads-section">Soup &amp; Salad</a></p>
+                <p><a href="#soup&amp;salads-section" data-type="internal" data-id="#soup&amp;salads-section">Soup &amp; Salad</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
 
             <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#mains-section" style="display: block;">
+                <a href="#mains-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/utensils.svg" alt="Mains Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#mains-section" data-type="internal" data-id="#mains-section">Mains</a></p>
+                <p><a href="#mains-section" data-type="internal" data-id="#mains-section">Mains</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
 
             <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#handhelds-section" style="display: block;">
+                <a href="#handhelds-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/burger.svg" alt="Handhelds Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#handhelds-section" data-type="internal" data-id="#handhelds-section">Handhelds</a></p>
+                <p><a href="#handhelds-section" data-type="internal" data-id="#handhelds-section">Handhelds</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
 
             <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <article class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
-                <a href="/#pizza-section" style="display: block;">
+                <a href="#pizza-section" style="display: block;">
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/pizza.svg" alt="Pizza Icon" class="safe-svg-inside safe-svg-inline">
                 </a>
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#pizza-section" data-type="internal" data-id="#pizza-section">10” Pizza</a></p>
+                <p><a href="#pizza-section" data-type="internal" data-id="#pizza-section">10” Pizza</a></p>
                 <!-- /wp:paragraph -->
             </article>
             <!-- /wp:group -->
@@ -106,7 +106,7 @@
                 <h2 class="wp-block-heading">Breakfast</h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[9]}},"tagName":"section","layout":{"type":"default"}} -->
+                <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[9]}},"tagName":"section","layout":{"type":"default"}} -->
                 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                     <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                     <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -116,12 +116,12 @@
                         </div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
+                        <!-- wp:group {"className":"description","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+                        <div class="wp-block-group description"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"block","tagName":"p"} /-->
+                        <!-- wp:group {"className":"add-on","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+                        <div class="wp-block-group add-on"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"block","tagName":"p"} /-->
 
                             <!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /-->
                         </div>
@@ -133,7 +133,7 @@
                 <!-- /wp:query -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+                <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
                 <!-- /wp:paragraph -->
             </div>
         </div>
@@ -153,7 +153,7 @@
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
                     <!-- /wp:html -->
 
-                    <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[8]}},"tagName":"section","layout":{"type":"default"}} -->
+                    <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[8]}},"tagName":"section","layout":{"type":"default"}} -->
                     <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                         <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                         <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -182,7 +182,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+                <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
                 <!-- /wp:paragraph -->
             </div>
         </div>
@@ -200,7 +200,7 @@
                 <h2 class="wp-block-heading">Soup &amp; Salads</h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[12]}},"tagName":"section","layout":{"type":"default"}} -->
+                <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[12]}},"tagName":"section","layout":{"type":"default"}} -->
                 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                     <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                     <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -210,12 +210,12 @@
                         </div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
+                        <!-- wp:group {"className":"description","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+                        <div class="wp-block-group description"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"inline-block","tagName":"p"} /-->
+                        <!-- wp:group {"className":"add-on","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+                        <div class="wp-block-group add-on"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","suffix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
                             <!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /-->
                         </div>
@@ -227,7 +227,7 @@
                 <!-- /wp:query -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+                <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
                 <!-- /wp:paragraph -->
             </div>
         </div>
@@ -247,7 +247,7 @@
                     <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/pin.png" alt="pin" class="pin">
                     <!-- /wp:html -->
 
-                    <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[11]}},"tagName":"section","layout":{"type":"default"}} -->
+                    <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[11]}},"tagName":"section","layout":{"type":"default"}} -->
                     <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                         <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                         <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -276,7 +276,7 @@
                 <!-- /wp:group -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+                <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
                 <!-- /wp:paragraph -->
             </div>
         </div>
@@ -292,7 +292,7 @@
                 <h2 class="wp-block-heading">Handhelds</h2>
                 <!-- /wp:heading -->
 
-                <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[10]}},"tagName":"section","layout":{"type":"default"}} -->
+                <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[10]}},"tagName":"section","layout":{"type":"default"}} -->
                 <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                     <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                     <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -302,12 +302,12 @@
                         </div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
+                        <!-- wp:group {"className":"description","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+                        <div class="wp-block-group description"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"description","fieldSettings":{"type":"textarea","key":"field_69b834a04d243"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /--></div>
                         <!-- /wp:group -->
 
-                        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-                        <div class="wp-block-group"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
+                        <!-- wp:group {"className":"add-on","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+                        <div class="wp-block-group add-on"><!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_name_1","fieldSettings":{"type":"text","key":"field_69b6fff37aa66"},"hideEmpty":true,"prefix":"","displayLayout":"inline-block","tagName":"p"} /-->
 
                             <!-- wp:mfb/meta-field-block {"fieldType":"acf","fieldName":"add-on_price_1","fieldSettings":{"type":"number","key":"field_69b6fdaf7aa61"},"hideEmpty":true,"prefix":": $","labelAsPrefix":true,"displayLayout":"block","tagName":"span","className":"no-wrap"} /-->
                         </div>
@@ -319,7 +319,7 @@
                 <!-- /wp:query -->
 
                 <!-- wp:paragraph -->
-                <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+                <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
                 <!-- /wp:paragraph -->
             </div>
         </div>
@@ -340,7 +340,7 @@
                         <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/pin.png" alt="pin" class="pin">
                         <!-- /wp:html -->
 
-                        <!-- wp:query {"queryId":6,"query":{"perPage":10,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[7]}},"tagName":"section","layout":{"type":"default"}} -->
+                        <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[7]}},"tagName":"section","layout":{"type":"default"}} -->
                         <section class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}}} -->
                             <!-- wp:group {"tagName":"article","layout":{"type":"constrained"}} -->
                             <article class="wp-block-group"><!-- wp:group {"className":"menu-dotted-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -390,7 +390,7 @@
                 </section>
                 <!-- /wp:group -->
                              <!-- wp:paragraph -->
-            <p><a href="/#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
+            <p><a href="#menu" data-type="internal" data-id="#menu">&lt;-- Back to Menu</a></p>
             <!-- /wp:paragraph -->
             </div>
 
@@ -401,4 +401,4 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026amp;Grill","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026amp;Grill","tagName":"footer","area":"uncategorized"} /-->
