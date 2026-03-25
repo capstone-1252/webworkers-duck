@@ -1,7 +1,7 @@
 /* 
 Theme Name: The Duck Taphouse & Grill
 Author: Long Hoang Tran, Zac W Waskowic, Kayden Mayhew.
-Description: This is a Wordpress for the final web capstone.
+Description: This is a Wordpress for The Duck Taphouse and Grill.
 Version: The version, written in X.X or X.X.Xcapstone
 Requires at least: The oldest main WordPress version supported, written in X.X format.
 Tested up to: The last main WordPress version the theme has been tested up to, i.e. 6.0. Write only the number.
@@ -31,40 +31,6 @@ Text Domain: The string used for textdomain for translation. The theme slug.
     --cream-medium: #F6F1CF;
     --cream-light: #FFFCE8;
     --cream-white: #FEFEF8;
-}
-
-/* #region Font Faces */
-/* Pridi Font Family */
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Regular.woff2');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Bold.woff2');
-    font-weight: 700;
-}
-
-/* Roboto Font Family */
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraLightItalic.woff2');
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Regular.woff2');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-SemiBold.woff2');
-    font-weight: 600;
 }
 
 /* #endregion */
@@ -287,3 +253,11 @@ main {
     white-space: nowrap;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wp-block-social-link-anchor svg {
+    fill:#FFFCE8 !important;
+}
