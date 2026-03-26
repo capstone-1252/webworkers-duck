@@ -310,3 +310,11 @@ body.page-template-page-menu .wp-site-blocks {
     white-space: nowrap;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wp-block-social-link-anchor svg {
+    fill:#FFFCE8 !important;
+}
