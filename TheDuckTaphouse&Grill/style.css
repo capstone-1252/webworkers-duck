@@ -404,7 +404,12 @@ body.page-template-page-menu .wp-site-blocks {
     display: inline-block;
     white-space: nowrap;
 }
-
+#menu h1 {
+    font-size: 2.25rem;
+    color: var(--yellow-vibrant);
+    margin-top: 4rem;
+    font-weight: 600;
+}
 #menu > section.wp-block-group > article.wp-block-group > a {
     width: 100px;
     height: 100px;
@@ -1242,6 +1247,12 @@ header a.wp-block-navigation-item__content span {
         width: 140px;
         height: 140px;
     }
+    #menu h1 {
+    font-size: 4rem;
+    color: var(--yellow-vibrant);
+    margin-top: 4rem;
+    font-weight: 600;
+}
 }
 
 @media (width >= 700px) {
