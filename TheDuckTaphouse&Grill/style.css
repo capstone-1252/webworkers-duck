@@ -390,9 +390,9 @@ flex-wrap: wrap !important;
 gap: 0 !important;
 flex-direction: unset !important;
 }
-main {
-    margin: 0 1.5rem;
-}
+ .menu-page {
+     margin: 0 1.5rem;
+ }
 body.page-template-page-menu,
 body.page-template-page-menu .wp-site-blocks {
     overflow-x: hidden;
@@ -447,7 +447,7 @@ body.page-template-page-menu .wp-site-blocks {
 #menu section.wp-block-group article.wp-block-group p a:focus-visible {
     text-decoration: underline;
 }
-.wp-block-media-text>.wp-block-media-text__content {
+#pizza-section .wp-block-media-text__content, #breakfasts-section .wp-block-media-text__content, #soup\&salads-section .wp-block-media-text__content, #handhelds-section .wp-block-media-text__content, #appetizers-section .wp-block-media-text__content, #mains-section .wp-block-media-text__content {
     padding: 0;
 }
 .wp-block-media-text__media img {
@@ -470,6 +470,9 @@ body.page-template-page-menu .wp-site-blocks {
     box-sizing: border-box;
     position: relative;
     padding: 0 1rem 1.5rem;
+}
+#appetizers-section .poloroid-card, #mains-section .poloroid-card, #pizza-section .poloroid-card {
+    max-width: 500px; 
 }
 .mains .menu-band-content-wrap, .appetizers .menu-band-content-wrap, .pizzas .menu-band-content-wrap {
     width: 100%;
@@ -563,7 +566,8 @@ body.page-template-page-menu .wp-site-blocks {
     border-bottom: 2px dotted #1E1E1E;
 }
 section#menu {
-    margin-bottom: 6.25rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 .wp-block-post-template {
     display: flex;
@@ -607,17 +611,17 @@ header a.wp-block-navigation-item__content span {
     margin-left: 1.5rem;
         width: 100%;
 }
-.wp-block-media-text.is-stacked-on-mobile {
+#breakfasts-section .wp-block-media-text.is-stacked-on-mobile, #soup\&salads-section .wp-block-media-text.is-stacked-on-mobile, #handhelds-section .wp-block-media-text.is-stacked-on-mobile, #appetizers-section .wp-block-media-text.is-stacked-on-mobile, #mains-section .wp-block-media-text.is-stacked-on-mobile, #pizza-section .wp-block-media-text.is-stacked-on-mobile {
     grid-template-columns: 100%;
 }
-.wp-block-media-text.has-media-on-the-right {
+#breakfasts-section, #soup\&salads-section, #handhelds-section, #appetizers-section, #mains-section, #pizza-section {
     grid-template-columns: 100%;
 }
-.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content {
-            grid-column: 1;
-        grid-row: 2;
+#breakfasts-section .wp-block-media-text__content, #soup\&salads-section .wp-block-media-text__content, #handhelds-section .wp-block-media-text__content, #appetizers-section .wp-block-media-text__content, #mains-section .wp-block-media-text__content, #pizza-section .wp-block-media-text__content {
+    grid-column: 1;
+    grid-row: 2;
 }
-.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__media {
+#breakfasts-section .wp-block-media-text__media, #soup\&salads-section .wp-block-media-text__media, #handhelds-section .wp-block-media-text__media, #appetizers-section .wp-block-media-text__media, #mains-section .wp-block-media-text__media, #pizza-section .wp-block-media-text__media {
         grid-column: 1;
         grid-row: 1; 
     }
@@ -625,8 +629,8 @@ header a.wp-block-navigation-item__content span {
     .breakfasts p, .soup-and-salads p, .handhelds p, .mains p, .pizzas p, .appetizers p {
         text-align: left;
     }
-    .wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content {
-            grid-column: 1;
+    #breakfasts-section .wp-block-media-text__content, #soup\&salads-section .wp-block-media-text__content, #handhelds-section .wp-block-media-text__content, #appetizers-section .wp-block-media-text__content, #mains-section .wp-block-media-text__content, #pizza-section .wp-block-media-text__content {
+        grid-column: 1;
         grid-row: 2;
 }
 .soup-and-salads .wp-block-media-text__content,
@@ -634,7 +638,7 @@ header a.wp-block-navigation-item__content span {
     display: flex;
     justify-content:unset;
 }
-.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__media {
+#breakfasts-section .wp-block-media-text__media, #soup\&salads-section .wp-block-media-text__media, #handhelds-section .wp-block-media-text__media, #appetizers-section .wp-block-media-text__media, #mains-section .wp-block-media-text__media, #pizza-section .wp-block-media-text__media {
         grid-column: 1;
         grid-row: -1; 
     }
@@ -653,6 +657,7 @@ header a.wp-block-navigation-item__content span {
         isolation: isolate;
         margin-top: 10rem;
         padding-bottom: 5rem;
+        padding-top: 5rem;
     }
 
     body.page-template-page-menu #breakfasts-section::after {
@@ -670,7 +675,7 @@ header a.wp-block-navigation-item__content span {
     body.page-template-page-menu #breakfasts-section::before {
         content: "";
         position: absolute;
-        top: -130px;
+        top: -190px;
         left: 50%;
         width: 100vw;
         margin-left: -50vw;
@@ -714,7 +719,7 @@ header a.wp-block-navigation-item__content span {
 
     body.page-template-page-menu #breakfasts-section .wp-block-query > .wp-block-post-template {
         display: grid;
-                grid-auto-flow: row;
+        grid-auto-flow: row;
         grid-template-columns: repeat(2, minmax(220px, 1fr));
         column-gap: 1.5rem;
         row-gap: 1.75rem;
@@ -758,6 +763,7 @@ header a.wp-block-navigation-item__content span {
         isolation: isolate;
         margin-top: 10rem;
         padding-bottom: 5rem;
+        padding-top: 5rem;
     }
 
     body.page-template-page-menu #soup\&salads-section::after {
@@ -775,7 +781,7 @@ header a.wp-block-navigation-item__content span {
     body.page-template-page-menu #soup\&salads-section::before {
         content: "";
         position: absolute;
-        top: -130px;
+        top: -190px;
         left: 50%;
         width: 100vw;
         margin-left: -50vw;
@@ -861,6 +867,8 @@ header a.wp-block-navigation-item__content span {
         overflow: visible;
         isolation: isolate;
         margin-top: 10rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
     }
 
     body.page-template-page-menu #appetizers-section > .wp-block-media-text__content {
@@ -942,6 +950,8 @@ header a.wp-block-navigation-item__content span {
         overflow: visible;
         isolation: isolate;
         margin-top: 10rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
     }
 
     body.page-template-page-menu #mains-section > .wp-block-media-text__content {
@@ -1011,6 +1021,7 @@ header a.wp-block-navigation-item__content span {
         isolation: isolate;
         margin-top: 10rem;
         padding-bottom: 5rem;
+        padding-top: 5rem;
     }
         body.page-template-page-menu #mains-section .poloroid-card {
         width: 100%;
@@ -1084,6 +1095,7 @@ header a.wp-block-navigation-item__content span {
         isolation: isolate;
         margin-top: 10rem;
         padding-bottom: 5rem;
+        padding-top: 5rem;
     }
 
     body.page-template-page-menu #handhelds-section::after {
@@ -1101,7 +1113,7 @@ header a.wp-block-navigation-item__content span {
     body.page-template-page-menu #handhelds-section::before {
         content: "";
         position: absolute;
-        top: -130px;
+        top: -190px;
         left: 50%;
         width: 100vw;
         margin-left: -50vw;
