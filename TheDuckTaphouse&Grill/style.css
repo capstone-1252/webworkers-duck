@@ -1,7 +1,7 @@
 /* 
 Theme Name: The Duck Taphouse & Grill
 Author: Long Hoang Tran, Zac W Waskowic, Kayden Mayhew.
-Description: This is a Wordpress for the final web capstone.
+Description: This is a Wordpress for The Duck Taphouse and Grill.
 Version: The version, written in X.X or X.X.Xcapstone
 Requires at least: The oldest main WordPress version supported, written in X.X format.
 Tested up to: The last main WordPress version the theme has been tested up to, i.e. 6.0. Write only the number.
@@ -12,6 +12,22 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 */
 
 /* TODO: 
+    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+        column-gap: 1.5rem;
+        row-gap: 1.75rem;
+        align-content: start;
+    }
+
+    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) > li:nth-child(4n-1) {
+        grid-column: 2;
+    }
+
+    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) > li:nth-child(4n) {
+        grid-column: 1;
+    }
 
 - Once High fidelity is done:
     - Remove unnessesary fonts form both here and actual files
@@ -33,129 +49,6 @@ Text Domain: The string used for textdomain for translation. The theme slug.
     --cream-white: #FEFEF8;
 }
 
-/* #region Font Faces */
-/* Pridi Font Family */
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-ExtraLight.woff2');
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Light.woff2');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Regular.woff2');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Medium.woff2');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-SemiBold.woff2');
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Pridi';
-    src: url('./assets/fonts/Pridi/Pridi-Bold.woff2');
-    font-weight: 700;
-}
-
-/* Roboto Font Family */
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Thin.woff2');
-    font-weight: 100;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ThinItalic.woff2');
-    font-weight: 100;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraLight.woff2');
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraLightItalic.woff2');
-    font-weight: 200;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Light.woff2');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-LightItalic.woff2');
-    font-weight: 300;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Regular.woff2');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Italic.woff2');
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Medium.woff2');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-MediumItalic.woff2');
-    font-weight: 500;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-SemiBold.woff2');
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-SemiBoldItalic.woff2');
-    font-style: italic;
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-Bold.woff2');
-    font-weight: 700;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-BoldItalic.woff2');
-    font-weight: 700;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraBold.woff2');
-    font-weight: 800;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('./assets/fonts/Roboto/Roboto-ExtraBoldItalic.woff2');
-    font-weight: 800;
-    font-style: italic;
-}
 /* #endregion */
 .wp-block-group {
     padding: 0;
@@ -173,7 +66,7 @@ header {
 .center {
     width: 100%;
     display: flex;
-    justify-content: center;;
+    justify-content: center;
 }
 
 :root :where(.wp-block-buttons) {
@@ -298,6 +191,8 @@ footer {
     position: relative;
     background-color: var(--black-light);
     padding: 1.5rem 1.125rem 1.6875rem;
+  /* conflicts with .poloroid-group */
+    /* max-width: 500px; */
     max-width: 310px;
     width: 100%;
     margin: 0 auto;
@@ -426,6 +321,88 @@ div.wpforms-field.wpforms-field-textarea .wpforms-field-label {
     width: 100%;
     background-color: var(--black-light) !important;
     color: var(--cream-white) !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+.menu-dotted-row, .add-on, .description {
+    align-items: flex-start !important;
+    column-gap: 0;
+}
+#pizza-section .poloroid-card p:first-of-type,#appetizers-section .poloroid-card p:first-of-type,#mains-section .poloroid-card p:first-of-type {
+    margin-bottom: 0;
+}
+.description .value, .add-on .value, .add-on .prefix {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.description p, .add-on p {
+    text-align: left !important;
+}
+.menu-dotted-row > :first-child {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    align-items: flex-start;
+}
+.menu-dotted-row > :first-child::after {
+    content: "";
+    flex: 1 1 auto;
+    min-width: 18px;
+    border-bottom: 2px dotted #ffffff;
+    margin: 0 8px;
+    align-self: center;
+}
+.menu-dotted-row > :last-child {
+    flex: 0 0 auto;
+    align-self: center;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.menu-dotted-row > h3.wp-block-post-title, h4.wp-block-post-title {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+}
+.menu-dotted-row:has(> :last-child:empty) > :first-child::after,
+.menu-dotted-row:has(> :last-child:blank) > :first-child::after {
+    display: none;
+}
+@media (max-width: 420px) {
+    .menu-dotted-row > :first-child::after {
+        min-width: 12px;
+        margin: 0 6px;
+    }
+}
+.inline {
+display: inline-block;
+}
+.flex-wrap {
+display: flex;
+flex-wrap: wrap !important;
+gap: 0 !important;
+flex-direction: unset !important;
+}
+main {
+    margin: 0 1.5rem;
+}
+body.page-template-page-menu,
+body.page-template-page-menu .wp-site-blocks {
+    overflow-x: hidden;
+}
+.p-removed li:last-child div p {
+    display: none;
+}
+.no-wrap {
+    display: inline-block;
+    white-space: nowrap;
 }
 
 
