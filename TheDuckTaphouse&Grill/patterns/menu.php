@@ -150,7 +150,7 @@
 
                 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
                 <div class="wp-block-group poloroid-card"><!-- wp:html -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
+                    <img src="/wp-content/themes/TheDuckTaphouse%26Grill/images/pin.png" alt="pin" class="pin">
                     <!-- /wp:html -->
 
                     <!-- wp:query {"queryId":6,"query":{"perPage":50,"pages":0,"offset":0,"postType":"menu-item","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[],"taxQuery":{"menu-category":[8]}},"tagName":"section","layout":{"type":"default"}} -->
@@ -400,5 +400,3 @@
     <!-- /wp:media-text -->
 </main>
 <!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026amp;Grill","tagName":"footer","area":"uncategorized"} /-->
