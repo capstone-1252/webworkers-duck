@@ -9,7 +9,7 @@
 <!-- wp:template-part {"slug":"header","theme":"TheDuckTaphouse\u0026Grill","tagName":"header","area":"uncategorized"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group"><!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
+<main class="wp-block-group menu-page"><!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
     <section id="menu" class="wp-block-group"><!-- wp:heading {"level":1} -->
         <h1 class="wp-block-heading">Menu</h1>
         <!-- /wp:heading -->
@@ -400,3 +400,5 @@
     <!-- /wp:media-text -->
 </main>
 <!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer","theme":"TheDuckTaphouse\u0026Grill"} /-->
