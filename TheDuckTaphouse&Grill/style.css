@@ -72,6 +72,82 @@ header {
 :root :where(.wp-block-buttons) {
     background-color: unset;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: 'Pridi';
+}
+h2 {
+    color: var(--yellow-vibrant);
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.btn {
+    display: block;
+    border-radius: 8px;
+
+    background-color: var(--yellow-vibrant);
+    color: var(--black-deep);
+
+    padding: 0.67rem 2.25rem;
+}
+
+.flip-h {
+    transform: scaleX(-1);
+}
+
+.flip-v {
+    transform: scaleY(-1);
+}
+
+.flip-h.flip-v {
+    transform: scale(-1);
+}
+
+.paper {
+    margin-bottom: -0.5rem;
+    width: 100%;
+}
+.paper .flip-v {
+    margin-bottom: 0;
+    margin-top: -0.5rem;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    max-width: 300px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: var(--black-light);
+}
+
+
+/* Home Page */
 .hero {
     padding: 0 1.5rem;
 }
@@ -80,6 +156,10 @@ header {
     line-height: 1;
     color: var(--yellow-vibrant);
     margin: 29px 0;
+}
+.hero img {
+    margin: 0 auto;
+    width: 100%;
 }
 .hero p {
     color: var(--cream-light);
@@ -95,7 +175,7 @@ header {
 .about {
     background-color: var(--yellow-light);
     color: var(--black-medium);
-    /* margin-bottom: 4.5rem; */
+    padding-bottom: 1rem;
 }
 .about h2 {
     color: var(--black-medium);
@@ -111,7 +191,11 @@ header {
     position: relative;
     background-color: var(--black-light);
     padding: 1.5rem 1.125rem 1.6875rem;
-    max-width: 500px;
+  /* conflicts with .poloroid-group */
+    /* max-width: 500px; */
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
 }
 .poloroid-card .pin {
     position: absolute;
@@ -158,74 +242,85 @@ header {
     margin-bottom: 0;
 }
 
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Pridi';
+/* Contact Us Page */
+.contact-us {
+    padding-bottom: 4rem;
 }
-h2 {
+.contact-us figure {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.contact-us h1 {
+    font-size: 2.25rem;
     color: var(--yellow-vibrant);
-    font-size: 2rem;
+    margin-top: 4rem;
     font-weight: 600;
 }
-h3 {
+.contact-us .container {
+    padding: 0 1.5rem;
+}
+.contact-us .poloroid-card {
+    margin-top: 2rem;
+}
+.contact-us .poloroid-card p {
+    margin: 0;
+}
+.contact-us .poloroid-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    gap: 2.25rem;
+}
+.contact-us strong {
+    color: var(--yellow-vibrant);
     font-size: 1.5rem;
     font-weight: 400;
 }
-
-
-.btn {
-    display: block;
-    border-radius: 8px;
-
-    background-color: var(--yellow-vibrant);
-    color: var(--black-deep);
-
-    padding: 0.67rem 2.25rem;
+.contact-us .hours p:first-of-type {
+    padding-bottom: 1.25rem;
+}
+.contact-us .hours p {
+    font-size: 1rem;
+    padding: 0.25rem 0;
 }
 
-.flip-h {
-    transform: scaleX(-1);
+.contact-us .form-section strong {
+    font-size: 1.25rem;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 
-.flip-v {
-    transform: scaleY(-1);
-}
-
-.paper {
-    margin-bottom: -0.5rem;
-}
-.paper .flip-v {
-    margin-bottom: 0;
-    margin-top: -0.5rem;
+.contact-us .form {
+    background-color: var(--yellow-light);
+    padding: 0 1.5rem;
 }
 
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-header .container{
+.contact-us .wpforms-field-textarea {
     display: flex;
-    justify-content: space-between;
-}
-.logo {
-    max-width: 300px;
-}
-img {
-    max-width: 100%;
-    height: auto;
+    flex-wrap: wrap;
 }
 
-header,
-footer {
-    background-color: var(--black-light);
+div.wpforms-field.wpforms-field-textarea .wpforms-field-label {
+    order: 1;
+    margin: 0;
+}
+.wpforms-field-textarea .wpforms-field-description {
+    order: 1;
+    padding: 1rem 0;
+    font-style: italic;
+}
+.wpforms-field-textarea textarea {
+    order: 2;
+}
+
+.wpforms-submit-container button.submit-btn {
+    width: 100%;
+    background-color: var(--black-light) !important;
+    color: var(--cream-white) !important;
 }
 html {
     scroll-behavior: smooth;
@@ -310,11 +405,147 @@ body.page-template-page-menu .wp-site-blocks {
     white-space: nowrap;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
+
+
+@media (width >= 700px) {
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+
+
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        margin: 0 4rem;
+        gap: 1.5rem;
+        align-items: center;
+        padding: 3.5rem 0 4rem;        
+    }
+    .hero div {
+        grid-column: 1/6;
+    }
+    .hero section {
+        grid-column: 7/-1;
+    }
+    .hero .wp-block-button {
+        display: flex;
+        justify-content: end;
+    }
+    .hero .btn {
+        width: calc((100%*2 / 3) - (1.5rem / 3));
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+
+    .about {
+        padding-bottom: 2rem;
+    }
+    .about img {
+        margin-top: 3rem;
+    }
+
+    .what-we-have .poloroid-group{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1.5rem;
+    }
+    .catering-poloroid {
+        margin-top: 2rem;
+        grid-column: 2/5;
+    }
+    .food-poloroid {
+        margin-top: -1rem;
+        grid-column: 6/9;
+    }
+    .live-bands-poloroid {
+        margin-top: 2rem;
+        grid-column: 10/-1;
+    }
+    .sports-poloroid {
+        margin-top: 3rem;
+        grid-column: 3/6;
+    }
+    .pool-darts-poloroid {
+        margin-top: 1rem;
+        grid-column: 7/10;
+    }
+
+
+    .socials section {
+        justify-content: space-around;
+    }
+    .socials h2,
+    .socials p {
+        margin: 0;
+    }
+
+
+    .contact-us .container {
+        max-width: unset;
+    }
+
+    .contact-us h1 {
+        font-size: 4rem;
+        color: var(--yellow-vibrant);
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    .contact-us .container section:first-of-type:not(section section) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .contact-us .container figure {
+        grid-column: 2/7;
+    }
+    .contact-us .container section:first-of-type section {
+        grid-column: 8/12;
+        width: 100%;
+        max-width: unset;
+    }
+    .contact-us .form-section {
+        margin: 0 !important;
+        padding: 0 4rem;
+    }
+    .contact-us .form-section strong {
+        font-size: 2.5rem;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+
+    .contact-us .form {
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        padding: 0 4rem;
+    }
+    .contact-us .form figure {
+        grid-column: 8/-1;
+        /* grid-row: 1; */
+        height: auto;
+    }
+    .contact-us .form div {
+        grid-column: 1/7;
+        grid-row: 1;
+    }
+    .contact-us .form input {
+        width: 100% !important;
+        max-width: unset !important;
+    }
+    
+    
+
 }
 
-.wp-block-social-link-anchor svg {
-    fill:#FFFCE8 !important;
-}
+
