@@ -212,4 +212,4 @@
 <!-- /wp:group --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026Grill","tagName":"footer","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"TheDuckTaphouse\u0026Grill","tagName":"div","area":"uncategorized"} /-->
