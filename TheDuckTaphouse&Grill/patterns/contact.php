@@ -24,7 +24,7 @@
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 
 <div class="wp-block-group alignleft"><!-- wp:paragraph {"fontSize":"large","fontFamily":"playfair-display"} -->
-<p class="has-playfair-display-font-family has-large-font-size"><strong>Phone:</strong></p>
+<h2 class="has-playfair-display-font-family">Phone:</h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -33,8 +33,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large","fontFamily":"playfair-display"} -->
-<p class="has-playfair-display-font-family has-large-font-size"><strong>Address:</strong></p>
+<div class="wp-block-group alignleft"><!-- wp:paragraph {"fontSize":"large","fontFamily":"playfair-display"} -->
+<h2 class="has-playfair-display-font-family">Address:</h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -44,7 +44,7 @@
 
 <!-- wp:group -->
 <div class="wp-block-group hours alignleft"><!-- wp:paragraph {"fontSize":"large","fontFamily":"playfair-display"} -->
-<p class="has-playfair-display-font-family has-large-font-size"><strong>Open Hours:</strong></p>
+<h2 class="has-playfair-display-font-family">Open Hours:</h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -72,7 +72,7 @@
 
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group form-section"><!-- wp:paragraph {"fontSize":"large","fontFamily":"playfair-display"} -->
-<p class="has-playfair-display-font-family has-large-font-size"><strong>For catering please fill out the contact form below:</strong></p>
+<h2 class="has-playfair-display-font-family">For catering please fill out the contact form below:</h2>
 <!-- /wp:paragraph -->
 
 </div>
