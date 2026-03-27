@@ -404,6 +404,9 @@ body.page-template-page-menu .wp-site-blocks {
     display: inline-block;
     white-space: nowrap;
 }
+.add-on .no-wrap {
+    margin-top: 1px;
+}
 #menu h1 {
     font-size: 2.25rem;
     color: var(--yellow-vibrant);
@@ -1437,4 +1440,3 @@ footer .wp-block-group {
         width: 50%;
     }
 }
-
