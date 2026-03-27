@@ -570,13 +570,22 @@ footer .wp-block-group {
         justify-content: space-between;
     }
 
+    footer.is-layout-flex {
+        gap:1.5rem;
+    }
+
+    footer.is-layout-flex,
+    ul.is-layout-flex {
+        flex-wrap: nowrap;
+    }
+
     .wp-block-social-link-anchor svg {
         fill:#FFFCE8 !important;
     }
 }
 
 @media (width >= 520px) {
-    footer .wp-block-group {
+    footer .wp-block-group-is-layout-constrained {
         width: 50%;
     }
 }
