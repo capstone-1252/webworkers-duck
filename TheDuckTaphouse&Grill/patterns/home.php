@@ -132,7 +132,7 @@
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin flip-h">
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="An image advertizing a special for game nights that descrives that wings are $10 and medium pizzas are $11" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-poloroid.avif" style="object-fit:cover"/></figure>
+<figure class="wp-block-image"><img alt="An advertisement for a special on game nights that shows wings for $10 and medium pizzas for $11" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-poloroid.avif" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 <h3 class="wp-block-heading">Sports</h3>
 <!-- /wp:heading -->
