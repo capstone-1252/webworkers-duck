@@ -137,7 +137,7 @@
                 <!-- /wp:paragraph -->
             </div>
         </div>
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/breakfast.png" alt="" class="wp-image-299 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/breakfast.avif" alt="Breakfast" class="wp-image-299 size-full" /></figure>
     </div>
     <!-- /wp:media-text -->
 
@@ -186,13 +186,13 @@
                 <!-- /wp:paragraph -->
             </div>
         </div>
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/appetizers.png" alt="" class="wp-image-300 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/appetizers.avif" alt="Appetizers" class="wp-image-300 size-full" /></figure>
     </div>
     <!-- /wp:media-text -->
 
     <!-- wp:media-text {"mediaId":301,"mediaLink":"http://ducktaphouseandgrill.local/?attachment_id=301","mediaType":"image"} -->
     <div class="wp-block-media-text is-stacked-on-mobile soup-and-salads" id="soup&amp;salads-section">
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/soup-and-salad.png" alt="" class="wp-image-301 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/soup-and-salad.avif" alt="Soup and Salads" class="wp-image-301 size-full" /></figure>
         <div class="wp-block-media-text__content">
             <div class="menu-band-content-wrap">
 
@@ -236,7 +236,7 @@
 
     <!-- wp:media-text {"mediaId":302,"mediaLink":"http://ducktaphouseandgrill.local/?attachment_id=302","mediaType":"image"} -->
     <div class="wp-block-media-text is-stacked-on-mobile mains" id="mains-section">
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mains.png" alt="" class="wp-image-302 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mains.avif" alt="Mains" class="wp-image-302 size-full" /></figure>
         <div class="wp-block-media-text__content">
             <div class="menu-band-content-wrap"><!-- wp:heading -->
                 <h2 class="wp-block-heading">Mains</h2>
@@ -323,7 +323,7 @@
                 <!-- /wp:paragraph -->
             </div>
         </div>
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/handhelds.png" alt="" class="wp-image-303 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/handhelds.avif" alt="" class="wp-image-303 size-full" /></figure>
     </div>
     <!-- /wp:media-text -->
 
@@ -395,7 +395,7 @@
             </div>
 
         </div>
-        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pizza.png" alt="" class="wp-image-304 size-full" /></figure>
+        <figure class="wp-block-media-text__media"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pizza.avif" alt="Pizza" class="wp-image-304 size-full" /></figure>
     </div>
     <!-- /wp:media-text -->
 </main>
