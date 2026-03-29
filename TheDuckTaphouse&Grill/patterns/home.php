@@ -193,7 +193,7 @@
 <!-- /wp:group -->
 
 <!-- wp:shortcode -->
-<?= do_shortcode('[instagram-feed feed=1]') ?>
+<?= do_shortcode('[trustindex-feed-instagram]') ?>
 <!-- /wp:shortcode --></section>
 <!-- /wp:group -->
 
@@ -206,7 +206,7 @@
 
 <!-- wp:shortcode -->
  
-[trustindex no-registration=google]
+<?= do_shortcode('[trustindex no-registration=google]') ?>
 <!-- /wp:shortcode --></section>
 </div>
 <!-- /wp:group --></main>
