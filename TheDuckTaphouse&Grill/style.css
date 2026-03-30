@@ -12,23 +12,6 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 */
 
 /* TODO: 
-    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) {
-        display: grid;
-        grid-auto-flow: row;
-        grid-template-columns: repeat(2, minmax(220px, 1fr));
-        column-gap: 1.5rem;
-        row-gap: 1.75rem;
-        align-content: start;
-    }
-
-    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) > li:nth-child(4n-1) {
-        grid-column: 2;
-    }
-
-    body.page-template-page-menu :is(#breakfasts-section, #soup\&salads-section, #appetizers-section, #mains-section, #pizza-section, #handhelds-section) .wp-block-query > .wp-block-post-template:not(.flex-wrap) > li:nth-child(4n) {
-        grid-column: 1;
-    }
-
 - Once High fidelity is done:
     - Remove unnessesary fonts form both here and actual files
     - account for mobile
