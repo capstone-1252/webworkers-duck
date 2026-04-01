@@ -1377,8 +1377,13 @@ header a.wp-block-navigation-item__content span {
         max-width: unset !important;
     }
     
-    
-
+    .contact-us img {
+    object-fit: cover;
+    box-sizing: border-box;
+    height: auto !important;
+    width: 100%;
+    vertical-align: bottom;
+    }
 }
 
 /* FOOTER */
