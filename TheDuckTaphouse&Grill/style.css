@@ -1276,7 +1276,7 @@ header a.wp-block-navigation-item__content span {
         display: flex;
         justify-content: end;
     }
-    .hero .btn, #wpforms-submit-419 {
+    .hero .btn, #wpforms-submit-375 {
         width: calc((100%*2 / 3) - (1.5rem / 3));
     }
 
@@ -1431,7 +1431,7 @@ footer .wp-block-group {
     height: 180px;
     width: 100%;
 }
-#wpforms-submit-419 {
+#wpforms-submit-375 {
     background-color: var(--yellow-vibrant) !important;
     color: #000000 !important;
     width: 100%;
