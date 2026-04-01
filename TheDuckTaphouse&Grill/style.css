@@ -1437,3 +1437,26 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
     width: 100%;
     margin: 2.25rem 0 4.375rem;
 }
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full input[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full button[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+    background-color: var(--yellow-vibrant) !important;
+    color: #000000 !important;
+    width: 100%;
+    margin: 2.25rem 0 4.375rem;
+}
+.wpforms-submit:hover, .wpforms-submit:focus, .wpforms-submit:active {
+    background-color: var(--yellow-vibrant) !important;
+    color: #000000 !important;
+    width: 100%;
+    margin: 2.25rem 0 4.375rem;
+}
+div.wpforms-container-full input[type=submit], div.wpforms-container-full button[type=submit], div.wpforms-container-full .wpforms-page-button, .wp-core-ui div.wpforms-container-full input[type=submit], .wp-core-ui div.wpforms-container-full button[type=submit], .wp-core-ui div.wpforms-container-full .wpforms-page-button {
+    background-color: var(--yellow-vibrant) !important;
+    width: 100% !important;
+    margin: 2.25rem 0 4.375rem;
+    border-color: var(--yellow-vibrant) !important;
+    color: #000000 !important;
+}
+button:hover, button:focus, button:active {
+    background-color: var(--yellow-vibrant) !important;
+    color: #000000 !important;
+}
