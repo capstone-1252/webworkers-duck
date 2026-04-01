@@ -1276,7 +1276,7 @@ header a.wp-block-navigation-item__content span {
         display: flex;
         justify-content: end;
     }
-    .hero .btn {
+    .hero .btn, div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full input[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full button[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
         width: calc((100%*2 / 3) - (1.5rem / 3));
     }
 
@@ -1430,4 +1430,10 @@ footer .wp-block-group {
 .wp-block-image img {
     height: 180px;
     width: 100%;
+}
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full input[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full button[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+    background-color: var(--yellow-vibrant) !important;
+    color: #000000 !important;
+    width: 100%;
+    margin: 2.25rem 0 4.375rem;
 }
