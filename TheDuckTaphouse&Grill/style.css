@@ -1437,3 +1437,6 @@ footer .wp-block-group {
     width: 100%;
     margin: 2.25rem 0 4.375rem;
 }
+#wpforms-submit-375:hover, .btn:hover {
+    background-color: #FBED1F !important;
+}
