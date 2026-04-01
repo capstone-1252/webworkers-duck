@@ -281,11 +281,6 @@ footer {
     padding: 0 1.5rem;
 }
 
-
-.contact-us .wpforms-field-textarea {
-    display: flex;
-    flex-wrap: wrap;
-}
     .contact-us .wp-block-image img {
     object-fit: cover;
     height: auto !important;
