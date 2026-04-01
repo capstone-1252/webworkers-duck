@@ -286,6 +286,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+    .contact-us .wp-block-image img {
+    object-fit: cover;
+    height: auto !important;
+    width: 100% !important;
+    }
 
 div.wpforms-field.wpforms-field-textarea .wpforms-field-label {
     order: 1;
@@ -1377,13 +1382,8 @@ header a.wp-block-navigation-item__content span {
         max-width: unset !important;
     }
     
-    .contact-us img {
-    object-fit: cover;
-    box-sizing: border-box;
-    height: auto !important;
-    width: 100%;
-    vertical-align: bottom;
-    }
+    
+
 }
 
 /* FOOTER */
