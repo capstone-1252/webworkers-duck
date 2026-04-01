@@ -1422,3 +1422,7 @@ footer .wp-block-group {
         width: 50%;
     }
 }
+.wp-block-image img {
+    height: 180px;
+    width: 100%;
+}
