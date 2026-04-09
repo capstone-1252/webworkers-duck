@@ -11,7 +11,7 @@
 <main class="wp-block-group"><!-- wp:group {"tagName":"section","className":"hero","layout":{"flexWrap":"wrap","justifyContent":"left","orientation":"horizontal"}} -->
     <section class="wp-block-group hero">
         <div class="center">
-            <img src="<?=get_stylesheet_directory_uri()?>/images/duck-logo.png" alt="">
+            <img src="<?=get_stylesheet_directory_uri()?>/images/duck-logo.webp" alt="logo">
         </div>
         <!-- wp:group {"tagName":"section","layout":{,"justifyContent":"center","contentSize":"500px"}} -->
         <section class="wp-block-group"><!-- wp:heading {"level":1,"className":"wp-block-heading"} -->
@@ -44,7 +44,7 @@
 <!-- /wp:paragraph --></div><img src="<?= get_stylesheet_directory_uri()?>/images/front-the-duck.avif" alt="An Image of the front of the tap house The Duck"></div>
 <!-- /wp:media-text --></section>
 <!-- /wp:group -->
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.png" alt="" class="paper ">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.webp" alt="" class="paper ">
 
 <!-- wp:group {"tagName":"section","className":"what-we-have","layout":{"type":"constrained"}} -->
 <section class="wp-block-group what-we-have"><!-- wp:heading {"className":"wp-block-heading"} -->
@@ -197,7 +197,7 @@
 <!-- /wp:shortcode --></section>
 <!-- /wp:group -->
 
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.png" alt="" class="paper flip-v flip-h">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ripped-paper.webp" alt="" class="paper flip-v flip-h">
 <div class="reviews">
 <!-- wp:group {"tagName":"section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group reviews-content"><!-- wp:heading -->

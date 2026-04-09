@@ -494,8 +494,8 @@ body.page-template-page-menu .wp-site-blocks {
     margin-left: -50vw;
     height: 72px;
     background-color: #FFF783;
-    -webkit-mask-image: url('./images/ripped-paper.png');
-    mask-image: url('./images/ripped-paper.png');
+    -webkit-mask-image: url('./images/ripped-paper.webp');
+    mask-image: url('./images/ripped-paper.webp');
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
@@ -671,8 +671,8 @@ header a.wp-block-navigation-item__content span {
         margin-left: -50vw;
         height: 200px;
         background-color: #FFF783;
-        -webkit-mask-image: url('./images/ripped-paper.png');
-        mask-image: url('./images/ripped-paper.png');
+        -webkit-mask-image: url('./images/ripped-paper.webp');
+        mask-image: url('./images/ripped-paper.webp');
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
         -webkit-mask-size: 100% 100%;
@@ -777,8 +777,8 @@ header a.wp-block-navigation-item__content span {
         margin-left: -50vw;
         height: 200px;
         background-color: #FFF783;
-        -webkit-mask-image: url('./images/ripped-paper.png');
-        mask-image: url('./images/ripped-paper.png');
+        -webkit-mask-image: url('./images/ripped-paper.webp');
+        mask-image: url('./images/ripped-paper.webp');
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
         -webkit-mask-size: 100% 100%;
@@ -1109,8 +1109,8 @@ header a.wp-block-navigation-item__content span {
         margin-left: -50vw;
         height: 200px;
         background-color: #FFF783;
-        -webkit-mask-image: url('./images/ripped-paper.png');
-        mask-image: url('./images/ripped-paper.png');
+        -webkit-mask-image: url('./images/ripped-paper.webp');
+        mask-image: url('./images/ripped-paper.webp');
         -webkit-mask-repeat: no-repeat;
         mask-repeat: no-repeat;
         -webkit-mask-size: 100% 100%;
