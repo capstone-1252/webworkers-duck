@@ -120,7 +120,7 @@ header .container{
     max-width: 300px;
 }
 img {
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto;
 }
 
@@ -229,7 +229,7 @@ footer {
 .contact-us {
     padding-bottom: 4rem;
 }
-.contact-us figure {
+.contact-us img:not(.paper) {
     padding-top: 1rem;
     display: flex;
     justify-content: center;
@@ -1340,7 +1340,7 @@ header a.wp-block-navigation-item__content span {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
     }
-    .contact-us .container figure {
+    .contact-us .container img {
         grid-column: 2/7;
     }
     .contact-us .container section:first-of-type section {
@@ -1363,7 +1363,7 @@ header a.wp-block-navigation-item__content span {
         grid-template-columns: repeat(12,1fr);
         padding: 0 4rem;
     }
-    .contact-us .form figure {
+    .contact-us .form img {
         grid-column: 8/-1;
         /* grid-row: 1; */
         height: auto;

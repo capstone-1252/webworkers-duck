@@ -62,7 +62,7 @@
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="Several golden roasted chicken breasts." src="<?php echo get_stylesheet_directory_uri(); ?>/images/catering-poloroid.avif"  style="object-fit:cover"/></figure>
+<img alt="Several golden roasted chicken breasts." src="<?php echo get_stylesheet_directory_uri(); ?>/images/catering-poloroid.avif"  style="object-fit:cover"/>
 <!-- /wp:image -->
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 <h3 class="wp-block-heading">Catering</h3>
@@ -84,7 +84,7 @@
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="A close up photo of a seared stake topped with green onions and garlic" src="<?php echo get_stylesheet_directory_uri(); ?>/images/food-poloroid.avif" style="object-fit:cover"/></figure>
+<img alt="A close up photo of a seared stake topped with green onions and garlic" src="<?php echo get_stylesheet_directory_uri(); ?>/images/food-poloroid.avif" style="object-fit:cover"/>
 <!-- /wp:image -->
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 <h3 class="wp-block-heading">Food</h3>
@@ -108,7 +108,7 @@
 <!-- wp:group {"className":"poloroid-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="A full body shot of 4 members of a local band" src="<?php echo get_stylesheet_directory_uri(); ?>/images/live-bands-poloroid.avif" style="object-fit:cover"/></figure>
+<img alt="A full body shot of 4 members of a local band" src="<?php echo get_stylesheet_directory_uri(); ?>/images/live-bands-poloroid.avif" style="object-fit:cover"/>
 <!-- /wp:image -->
  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin">
 <h3 class="wp-block-heading">Live Bands</h3>
@@ -132,7 +132,7 @@
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin flip-h">
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="An advertisement for a special on game nights that shows wings for $10 and medium pizzas for $11" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-poloroid.avif" style="object-fit:cover"/></figure>
+<img alt="An advertisement for a special on game nights that shows wings for $10 and medium pizzas for $11" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-poloroid.avif" style="object-fit:cover"/>
 <!-- /wp:image -->
 <h3 class="wp-block-heading">Sports</h3>
 <!-- /wp:heading -->
@@ -153,7 +153,7 @@
 <div class="wp-block-group poloroid-card"><!-- wp:heading {"level":3} -->
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/pin.png" alt="" class="pin flip-h">
 <!-- wp:image {"scale":"cover"} -->
-<figure class="wp-block-image"><img alt="A group of students all grouped up for a photo infront of a pool table." src="<?php echo get_stylesheet_directory_uri(); ?>/images/pool-darts-poloroid.avif" style="object-fit:cover"/></figure>
+<img alt="A group of students all grouped up for a photo infront of a pool table." src="<?php echo get_stylesheet_directory_uri(); ?>/images/pool-darts-poloroid.avif" style="object-fit:cover"/>
 <!-- /wp:image --><h3 class="wp-block-heading">Pool &amp; Darts</h3>
 <!-- /wp:heading -->
 
