@@ -20,7 +20,7 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Pridi Regular (400) */
 @font-face {
     font-family: 'Pridi';
-    src: url('/wp-content/themes/TheDuckTaphouse&Grill/assets/fonts/Pridi-Regular.woff2') format('woff2');
+    src: url('./assets/fonts/Pridi-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Pridi Medium (500) */
 @font-face {
     font-family: 'Pridi';
-    src: url('/wp-content/themes/TheDuckTaphouse&Grill/assets/fonts/Pridi-Medium.woff2') format('woff2');
+    src: url('./assets/fonts/Pridi-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -38,7 +38,7 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Roboto Regular (400) */
 @font-face {
     font-family: 'Roboto';
-    src: url('/wp-content/themes/TheDuckTaphouse&Grill/assets/fonts/Roboto-Regular.woff2') format('woff2');
+    src: url('./assets/fonts/Roboto-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -47,7 +47,7 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Roboto Medium (500) */
 @font-face {
     font-family: 'Roboto';
-    src: url('/wp-content/themes/TheDuckTaphouse&Grill/assets/fonts/Roboto-Medium.woff2') format('woff2');
+    src: url('./assets/fonts/Roboto-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -56,7 +56,7 @@ Text Domain: The string used for textdomain for translation. The theme slug.
 /* Roboto ExtraLight (200) */
 @font-face {
     font-family: 'Roboto';
-    src: url('/wp-content/themes/TheDuckTaphouse&Grill/assets/fonts/Roboto-ExtraLight.woff2') format('woff2');
+    src: url('./assets/fonts/Roboto-ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -218,7 +218,6 @@ footer {
     position: relative;
     background-color: var(--black-light);
     padding: 1.5rem 1.125rem 1.6875rem;
-  /* conflicts with .poloroid-group */
     /* max-width: 500px; */
     max-width: 310px;
     width: 100%;
@@ -240,7 +239,9 @@ footer {
 .poloroid-card a {
     color: var(--yellow-vibrant);
 }
-
+.height {
+    height: 200px;
+}
 .socials {
     padding: 0 1.5rem;
 }
@@ -278,6 +279,9 @@ footer {
     display: flex;
     justify-content: center;
 
+}
+.size-full {
+    max-width: none !important;
 }
 .contact-us h1 {
     font-size: 2.25rem;
